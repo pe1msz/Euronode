@@ -21,7 +21,7 @@ for found in $FIRMWARE
 do
   echo "Found $found firmware..."
   # take action on this file, upload it to radioboard.
-  sudo stm32flash -v -w ${found} /dev/ttyAMA0 -R -i 200,-3,3:-200,3
+  sudo stm32flash -v -w ${found} /dev/ttyAMA0 -R -i 200,-3,3:-200,-3,3
 
   # Make a backup of the uploaded FW to backup-folder, and reboot afterwards.
   sudo mv ${found} euro/backup
