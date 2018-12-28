@@ -41,10 +41,10 @@ require_once('../config/version.php');
 	<center><input type="file" name="fileToUpload" id="fileToUpload"><BR><BR></center>
         <center><input type="submit" value="Upload Firmware" name="submit"><BR><BR></center>
   </tr>
-     <th><BR></th>
 	</table>
 
 </form>
+</div>
 
 <div class="footer">
 Pi-Star / Pi-Star Dashboard, &copy; Andy Taylor (MW0MWZ) 2014-<?php echo date("Y"); ?>.<br />
